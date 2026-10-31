@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Phornix Factory
+GenericName=Media Converter
+Comment=Universal Media Converter Suite
+Exec=phoenix_factory %U
+Icon=satcs.phoenix.factory
+Terminal=false
+Categories=AudioVideo;AudioVideoEditing;Audio;Video;Graphics;Utility;
+Keywords=Converter;Video;Audio;Picture;Format;Factory;FFmpeg;Transcoder;
+StartupNotify=true
+StartupWMClass=satcs.phoenix.factory
