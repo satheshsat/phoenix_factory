@@ -134,3 +134,9 @@ install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/satcs.phoenix.factory.desktop"
 install(DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/icons/hicolor"
   DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons"
   COMPONENT Runtime)
+install(PROGRAMS "${CMAKE_CURRENT_SOURCE_DIR}/install.sh"
+  DESTINATION "${CMAKE_INSTALL_PREFIX}"
+  COMPONENT Runtime)
+install(PROGRAMS "${CMAKE_CURRENT_SOURCE_DIR}/uninstall.sh"
+  DESTINATION "${CMAKE_INSTALL_PREFIX}"
+  COMPONENT Runtime)
